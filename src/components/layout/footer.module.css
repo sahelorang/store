@@ -1,0 +1,31 @@
+
+.footer {
+    background-color: #333;
+    height: 15rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  
+  .footer p,.footer a,.footer i{
+    color: #bbb;
+    font-size: 1.6rem;
+  }
+  .footer i{
+    margin: 0 0.5rem;
+  }
+  .footer a{
+    text-decoration: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    transition: all 0.5s;
+  }
+  @media screen and (max-width: 37.5em) {
+    .home{
+      padding: 0;
+    }
+  
+    .header__box{
+    transform: translateY(0);
+    }
+  }

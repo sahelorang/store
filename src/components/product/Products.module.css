@@ -1,0 +1,38 @@
+.container {
+  min-height: 100vh;
+}
+
+.products{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  
+}
+
+.btns{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1.5rem;
+}
+
+.btn{
+  background-color: rgb(79, 139, 119);
+  color: #fff;
+  padding: 1.3rem 2.3rem;
+  border: 1px solid rgb(79, 139, 119);
+  border-radius: 3px;
+  margin: 0 1rem;
+  transition: background-color 0.3s,color 0.3s;
+}
+
+.btn:hover{
+  background-color: rgb(112, 197, 169);
+  color: #fff;
+}
+
+.btn.disable{
+  background-color: bisque;
+  color: #555;
+  opacity: 0.5;
+}

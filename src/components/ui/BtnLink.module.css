@@ -1,0 +1,23 @@
+.btn-link {
+    border-bottom: 1px solid #2b752b;
+    padding: 1rem 2rem;
+    color: #000;
+    text-decoration: none;
+    font-size: 1.3rem;
+    position: relative;
+  
+  }
+  
+  .btn-link:hover::after{
+    display: inline;
+    transform: translateX(6px);  
+    opacity: 1;
+  }
+  
+  .btn-link::after {
+    content: "\00BB";
+    position: absolute;
+    opacity: 0;
+    transition: all 0.3s;
+  }
+  

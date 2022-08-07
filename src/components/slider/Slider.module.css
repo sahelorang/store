@@ -1,0 +1,45 @@
+.slider {
+  width: 100%;
+  height: 90vh;
+  position: relative;
+  overflow: hidden;
+  margin-top: 6rem;
+}
+
+.btnBack,
+.btnForward {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  background-color: rgba(256, 256, 256, 0.3);
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.btnBack:hover,
+.btnForward:hover {
+  background-color: rgba(256, 256, 256, 0.4);
+
+}
+.btnBack:focus,
+.btnForward:focus {
+  outline: none;
+}
+
+.btnBack *,
+.btnForward * {
+  font-size: 2.7rem !important;
+}
+
+.btnBack {
+  position: absolute;
+  top: 50%;
+  left: 1%;
+}
+
+.btnForward {
+  position: absolute;
+  top: 50%;
+  right: 1%;
+}
